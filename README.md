@@ -1,2 +1,0 @@
-# blakeeverett.com
-Personal Website
