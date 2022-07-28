@@ -267,20 +267,21 @@
 							<p>I am currently available for hire and am accepting new clients. 
 								Simply fill out the form below to get in touch or email me at:
 								 <b>blake@blakeeverett.com</b></p>
-
-								<form method="post" name="contact" data-netlify="true" action="./thankyou.html" >
-								<div class="row">
-									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
-									<div class="col-12">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div>
-									<div class="col-12">
-										<input type="submit" value="Send Message" onsubmit=link/>
-									</div>
-								</div>
-								</form>
-
+								<form
+								  action="https://formspree.io/f/xbjbrrpd"
+								  method="POST"
+									>
+								  <label>
+								    Your email:
+								    <input type="email" name="email">
+								  </label>
+								  <label>
+								    Your message:
+								    <textarea name="message"></textarea>
+								  </label>
+								  <!-- your other form fields go here -->
+								  <button type="submit">Send</button>
+								</form>								
 						</div>
 					</section>
 
